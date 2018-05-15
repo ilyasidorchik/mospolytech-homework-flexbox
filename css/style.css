@@ -290,3 +290,45 @@ nav ul {
     z-index: 2;
     position: relative;
 }
+
+
+
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    width: 50%;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer-menu-link {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #6a6a77;
+    font-weight: 500;
+}
+
+.footer-get-started {
+    margin-left: 60px;
+    border: 1px solid #fff;
+    background-color: #6e45e2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
